@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/classify_icon_1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/fragment_classify_1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="@dimen/fragment_picture_width"
+                    android:layout_height="@dimen/fragment_picture_height"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/classify_icon_flower" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="生活美学"
+                    android:textColor="@color/fragment_classify_text_color"
+                    android:textSize="@dimen/classify_textSize"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/classify_icon_2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/fragment_classify_2"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="@dimen/fragment_picture_width"
+                    android:layout_height="@dimen/fragment_picture_height"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/classify_icon_photo" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fragment_classify_text_color"
+                    android:textSize="@dimen/classify_textSize"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="摄影"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/classify_icon_3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/fragment_classify_3"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="@dimen/fragment_picture_width"
+                    android:layout_height="@dimen/fragment_picture_height"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/classify_icon_book" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fragment_classify_text_color"
+                    android:textSize="@dimen/classify_textSize"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="读书"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/classify_icon_4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/fragment_classify_4"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="@dimen/fragment_picture_width"
+                    android:layout_height="@dimen/fragment_picture_height"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/classify_icon_movie" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fragment_classify_text_color"
+                    android:textSize="@dimen/classify_textSize"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="电影" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/classify_icon_5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/fragment_classify_5"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="@dimen/fragment_picture_width"
+                    android:layout_height="@dimen/fragment_picture_height"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/classify_icon_food" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fragment_classify_text_color"
+                    android:textSize="@dimen/classify_textSize"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="厨艺" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--<com.idarenhui.tool_android.customModule.CourseClassifyView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent">-->
+        <!--</com.idarenhui.tool_android.customModule.CourseClassifyView>-->
+    </LinearLayout>
+</ScrollView>

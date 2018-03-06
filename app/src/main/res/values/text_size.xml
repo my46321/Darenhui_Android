@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="MainTabTextSize">12dp</dimen>
+    <dimen name="MainPageLogeSize">20dp</dimen>
+    <dimen name="classify_textSize">16sp</dimen>
+</resources>

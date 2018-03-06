@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="0.3dp"
+    android:layout_marginBottom="0.3dp"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/lesson_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="title"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/lesson_title"/>
+        <TextView
+            android:layout_width="160dp"
+            android:maxLines="2"
+            android:layout_marginTop="4dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="13dp"
+            android:text="intro"
+            android:layout_below="@id/lesson_title"
+            android:id="@+id/lesson_intro"
+            />
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textSize="14dp"
+            android:text="删除"
+            android:id="@+id/cancel_collect"
+            android:textColor="@color/colorWhite"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="@drawable/buttonsquare"
+            android:layout_alignTop="@+id/lesson_intro"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</LinearLayout>

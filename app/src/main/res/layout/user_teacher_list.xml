@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/main_activity_tab_background">
+        <ImageView
+            android:id="@+id/close_icon"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="@dimen/icon_close"
+            android:layout_height="@dimen/icon_close"
+            android:src="@drawable/ic_close_black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:text="关注老师"
+            android:textSize="18dp"
+            android:textColor="@color/color_black"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/cancel_edit"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:text="编辑"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorWhite"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/teacher_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGrey">
+
+    </android.support.v7.widget.RecyclerView>
+        <!--<com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView-->
+            <!--android:id="@+id/teacher_list"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView>-->
+    </LinearLayout>
+</ScrollView>

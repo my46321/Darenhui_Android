@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@drawable/border"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/experience_img"
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        >
+
+
+        <TextView
+            android:id="@+id/experience_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title" />
+        <TextView
+            android:id="@+id/experience_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textColor="@color/colorBrown"
+            android:text="state"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="13dp"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

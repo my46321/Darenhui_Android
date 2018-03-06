@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/main_activity_tab_background">
+        <ImageView
+            android:id="@+id/close_icon"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="@dimen/icon_close"
+            android:layout_height="@dimen/icon_close"
+            android:src="@drawable/ic_close_black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:text="课程详情"
+            android:textSize="18dp"
+            android:textColor="@color/color_black"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:id="@+id/course_collect"
+            android:src="@drawable/ic_star"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="45dp"
+            android:id="@+id/share_url"
+            android:src="@drawable/share"/>
+
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/course_viewpager">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

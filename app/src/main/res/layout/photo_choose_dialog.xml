@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/imp_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true" >
+        <LinearLayout
+            android:id="@+id/wxpay_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/photo_cancel_selector"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/wxpay"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="微信支付"
+                android:textSize="20dp"
+                android:textColor="@color/color_black"/>
+            </LinearLayout>
+            <!--android:drawableLeft="@drawable/wxpay"-->
+            <!--android:text="微信支付"-->
+            <!--android:textSize="16sp" />-->
+
+        <LinearLayout
+            android:id="@+id/alipay_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/wxpay_btn"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/photo_cancel_selector"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/alipay"
+                />
+            <TextView
+
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="支付宝支付"
+                android:textSize="20dp"
+                android:textColor="@color/color_black"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/cancle_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/photo_cancel_selector"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:layout_below="@id/alipay_btn"
+            android:text="取消"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</RelativeLayout>

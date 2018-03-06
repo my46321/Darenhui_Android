@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#535fa6</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGrey">#888888</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorCroci">#edb407</color>
+    <color name="colorBrown">#B37F42</color>
+    <color name="colorRed">#E51C23</color>
+    <color name="main_tab_item_text_select">#000000</color>
+    <color name="main_tab_item_text_normal">#808288</color>
+    <color name="hint">#9C9DA1</color>
+    <color name="dynamic_tab_text_select">#000000</color>
+    <color name="dynamic_tab_text_normal">#808288</color>
+    <color name="contact_color">#B37F42</color>
+    <color name="tab_item_background">#ffffffff</color>
+    <color name="recyclerview_background">#d9d1d1</color>
+    <color name="color_black">#444444</color>
+
+    <color name="main_title_text_select">#78ffffff</color>
+    <color name="main_title_text_normal">#ffffffff</color>
+
+    <color name="MainPageLogeColor">#FF000000</color>
+    <color name="main_page_background">#FFFDFDFD</color>
+    <color name="main_page_list">#FF1D1C1C</color>
+    <color name="colorOrange">#FF9800</color>
+    <color name="colorGreen">#259B24</color>
+    <color name="shallowGrey">#888888</color>
+
+    <color name="main_activity_tab_background">#F2F2F2</color>
+    <!--五大分类的颜色-->
+    <color name="fragment_classify_1">#6157DE</color>
+    <color name="fragment_classify_2">#A55AE0</color>
+    <color name="fragment_classify_3">#E05ECC</color>
+    <color name="fragment_classify_4">#E05C74</color>
+    <color name="fragment_classify_5">#E09D5E</color>
+    <color name="fragment_classify_picture_color">#FFFFFF</color>
+    <color name="fragment_classify_text_color">#FFFFFF</color>
+
+    <!--分割线颜色-->
+    <color name="divide_line">#323131</color>
+    <color name="divide_line_2">#DCDBDB</color>
+    <!--导师简介字体颜色-->
+    <color name="master_description">#FF000000</color>
+
+    <!--购买课程时，课程信息颜色-->
+    <color name="purchase_info_text">#FF000000</color>
+    <!--购买页面文字选择器颜色变化-->
+    <color name="purchase_text_select">#FF9800</color>
+    <color name="purchase_text_normal">#444444</color>
+
+    <!--购买页面文字三种颜色变化-->
+    <color name="purchase_text_SELECT">#FF9800</color>
+    <color name="purchase_text_NORMAL">#FF212121</color>
+    <color name="purchase_text_UNUSE">#FF838383</color>
+
+    <!--登陆注册相关-->
+    <color name="login_editText_color">#efefef</color>
+    <color name="login_button_color">#b27e42</color>
+    <color name="login_editText_stroke_color">#cccccc</color>
+    <color name="login_getVF_button_color">#E5E5E5</color>
+
+    <!--个人信息界面-->
+    <color name="personshow">#24DEFF</color>
+    <color name="transparent">#9000</color>
+    <color name="register_campus_selected_color">#FF9800</color>
+    <color name="register_campus_unselected_color">#444444</color>
+</resources>

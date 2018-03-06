@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/main_activity_tab_background">
+            <ImageView
+                android:id="@+id/close_icon"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="@dimen/icon_close"
+                android:layout_height="@dimen/icon_close"
+                android:src="@drawable/ic_close_black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="35dp"
+                android:text="个人信息更改"
+                android:textSize="18dp"
+                android:textColor="@color/color_black"
+                android:gravity="center"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/test" />
+            <Button
+                android:id="@+id/photo_picker_btn"
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_add_a_photo_black"
+                android:layout_toRightOf="@id/profile_image"
+                android:layout_marginLeft="-20dp"
+                android:layout_marginTop="-10dp"
+                android:layout_below="@id/profile_image"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+
+                android:id="@+id/male_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/reg_male_image2" />
+
+            <ImageView
+                android:id="@+id/female_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="45dp"
+                android:src="@drawable/reg_female_image2"
+                />
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/name_et"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="请填写姓名"
+            android:textSize="15dp"
+            android:background="@drawable/bg_edit_text" />
+
+        <TextView
+            android:id="@+id/school_campus_et"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:text="请选择学校和校区"
+            android:background="@drawable/bg_edit_text"
+            />
+        <Spinner
+            android:id="@+id/identity_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="请选择您的身份"
+            android:textSize="15dp"
+            android:background="@drawable/bg_edit_text"
+            android:entries="@array/identity"/>
+
+        <EditText
+            android:id="@+id/enrollment_et"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_edit_text"
+            android:hint="请选择入学年份"
+            android:maxLength="4"
+            android:digits="0123456789"
+            android:textSize="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <EditText
+            android:id="@+id/phone_num_show"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_edit_text"
+            android:hint="手机号码"
+            android:enabled="false"
+            android:textSize="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <Button
+            android:id="@+id/btn_reg"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:text="确认"
+            android:background="@drawable/button"
+            android:textColor="#ffff"/>
+    </LinearLayout>
+</ScrollView>

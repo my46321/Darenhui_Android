@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">iHobby</string>
+
+    <string name="main">首页</string>
+    <string name="dingdan">订单</string>
+    <string name="person">我</string>
+
+    <string name="string_seu">东南大学</string>
+    <string name="string_jiulonghu_campus">九龙湖校区</string>
+    <string name="string_sipailou_campus">四牌楼校区</string>
+    <string name="string_dingjiaqiao_campus">丁家桥校区</string>
+    <string name="string_nuaa_campus">南京航空航天大学</string>
+    <string name="string_jinagjunlu_campus">将军路校区</string>
+    <string name="string_minggugong_campus">明故宫校区</string>
+    <string name="string_hhu">河海大学</string>
+    <string name="string_jiangning_campus"> 江宁校区 </string>
+    <string name="string_gulou_campus"> 鼓楼校区 </string>
+    <string name="string_logoff">退出登录</string>
+
+    <string name="string_inputPhoneNum"> <font color='grey'>请输入手机号</font></string>
+    <string name="string_inputVerificationCode"><font color='grey'>请输入验证码</font></string>
+    <string name="string_getVerificationCode">获取验证码</string>
+</resources>

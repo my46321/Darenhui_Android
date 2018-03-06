@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_page_background"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/card1">
+    <ImageView
+        android:id="@+id/CourseOverView_picture"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        tools:src="@drawable/test"
+        android:scaleType="center"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="25dp"
+        />
+    <TextView
+        android:id="@+id/CourseOverView_title"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_height="53dp"
+        tools:text="【茗.礼】茶道美学系列课程"
+        android:textSize="16sp"
+        android:gravity="center_vertical|left"
+        android:textColor="#444444"
+        android:layout_marginTop="0dp"
+        />
+
+    <TextView
+        android:id="@+id/CourseOverView_viewText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-10dp"
+        tools:text="台湾清香斋弟子带课，多方面提升茶道感知力"
+        android:textSize="12sp"
+        android:textColor="#999999"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+    </LinearLayout>
+</LinearLayout>

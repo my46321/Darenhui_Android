@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:useLevel="false" >
+
+    <solid android:color="#000000"/>
+
+    <size
+        android:height="@dimen/main_fragment_tab_down_line"
+        android:width="@dimen/main_fragment_tab_pic_width"/>
+
+</shape>

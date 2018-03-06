@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/main_activity_tab_background"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!--加载圆形-->
+    <ImageView
+        android:id="@+id/logo_tab"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        tools:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iHobby"
+        android:textSize="@dimen/MainPageLogeSize"
+        android:textColor="@color/MainPageLogeColor"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        />
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<ImageView
+    android:id="@+id/singleorder_image1"
+    android:layout_width="100dp"
+    android:layout_height="60dp"
+    android:src="@drawable/test"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="20dp"
+    />
+<TextView
+    android:textSize="18dp"
+    android:layout_marginTop="16dp"
+    android:layout_width="300dp"
+    android:layout_height="30dp"
+    android:id="@+id/singleorder_text1"
+    android:layout_toRightOf="@id/singleorder_image1"
+    android:text="【茗礼】茶道美学系列课程"
+    android:layout_marginLeft="10dp"
+    android:textColor="@color/color_black"/>
+<TextView
+    android:textSize="13dp"
+    android:layout_width="204dp"
+    android:layout_height="25dp"
+    android:id="@+id/singleorder_text2"
+    android:layout_toRightOf="@id/singleorder_image1"
+    android:layout_marginLeft="20dp"
+    android:text="待付款"
+    android:maxLines="1"
+    android:layout_below="@id/singleorder_text1"/>
+    <Button
+        android:id="@+id/singleorder_button"
+        android:layout_width="77dp"
+        android:layout_height="24dp"
+        android:gravity="center"
+        android:layout_alignTop="@id/singleorder_text2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button"
+        android:text="去支付"
+        android:textSize="14dp"
+        android:textColor="@color/colorWhite"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorGrey"
+        android:layout_below="@id/singleorder_image1"
+        android:layout_marginTop="20dp"
+        ></View>
+</RelativeLayout>

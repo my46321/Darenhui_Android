@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <include layout="@layout/course_classify_one">
+        </include>
+
+        <!--<include layout="@layout/view_master"-->
+            <!--android:id="@+id/master_one"/>-->
+        <!--<include layout="@layout/view_master"-->
+            <!--android:id="@+id/master_two"/>-->
+
+        <com.idarenhui.tool_android.custom.MasterView
+            android:id="@+id/master_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </com.idarenhui.tool_android.custom.MasterView>
+        <com.idarenhui.tool_android.custom.MasterView
+            android:id="@+id/master_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </com.idarenhui.tool_android.custom.MasterView>
+
+        <!--<view-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="查看更多"/>
+        <!--<view-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"/>-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/courseOverView_recycleList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+</ScrollView>

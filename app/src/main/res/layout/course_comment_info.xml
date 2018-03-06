@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/recyclerview_background">
+    <com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/recyclerview_background"
+        android:id="@+id/comment_recyclerview">
+
+    </com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView>
+    <RelativeLayout
+        android:id="@+id/when_no_comment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="invisible">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/nothing"
+            android:layout_centerInParent="true"
+            android:id="@+id/id_nothing"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:text="还没有评论哦～"
+            android:layout_below="@id/id_nothing"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

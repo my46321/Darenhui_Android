@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_tab_item_image_and_text">1dp</dimen>
+    <!--首页右上角两个tab的宽度-->
+    <dimen name="main_fragment_tab_pic_width">30dp</dimen>
+    <!--首页右上角tab下面的下划线高度-->
+    <dimen name="main_fragment_tab_down_line">3dp</dimen>
+    <!--左上角，叉的大小-->
+    <dimen name="icon_close">30dp</dimen>
+    <!--小矩形课程图片-->
+    <dimen name="course_little_rectangle_width">100dp</dimen>
+    <dimen name="course_little_rectangle_heigh">60dp</dimen>
+
+    <dimen name="scroll_width_right">-120dp</dimen>
+    <dimen name="scroll_width_left">120dp</dimen>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.idarenhui.tool_android">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ui.main.SplashActivity"
+            android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.main.MainActivity">
+
+        </activity>
+
+        <activity android:name=".ui.main.MainActivity_v1">
+
+        </activity>
+
+        <activity android:name=".ui.course.CourseDetailActivity">
+
+        </activity>
+        <activity android:name=".ui.course.CourseClassifyActivity">
+
+        </activity>
+        <activity android:name=".ui.course.MasterInfoActivity">
+
+        </activity>
+        <activity android:name=".ui.course.PurchaseDetailActivity">
+
+        </activity>
+        <activity android:name=".ui.order.WaitPayActivity">
+
+        </activity>
+        <activity android:name=".ui.order.WaitAcceptActivity">
+
+        </activity>
+        <activity android:name=".ui.order.WaitEvaluateActivity">
+
+        </activity>
+        <activity android:name=".ui.order.RefundComplishmentActivity">
+
+        </activity>
+        <activity android:name=".ui.order.OrderComplishmentActivity">
+
+        </activity>
+        <activity android:name=".ui.course.CourseDetailPurchaseActivity">
+
+        </activity>
+        <activity android:name=".ui.order.EditEvaluation">
+
+        </activity>
+        <activity android:name=".ui.order.OrderBeingPayActivity">
+
+        </activity>
+        <activity android:name=".ui.order.OrderCancelActivity">
+
+        </activity>
+        <activity android:name=".ui.order.OrderOnServiceActivity">
+
+        </activity>
+
+        <activity
+            android:name="com.pingplusplus.android.PaymentActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity-alias
+            android:name="com.idarenhui.tool_android.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:targetActivity="com.pingplusplus.android.PaymentActivity" />
+        <activity android:name=".ui.order.SignupPayActivity">
+
+        </activity>
+        <activity android:name=".ui.user.RegisterAty">
+
+        </activity>
+        <activity android:name=".ui.user.RegisterCampusActivity">
+
+        </activity>
+        <activity android:name=".ui.user.ModifyUserInfoAty">
+
+        </activity>
+        <activity android:name=".ui.user.UserTeacherAty">
+
+        </activity>
+        <activity android:name=".ui.user.UserLessonAty">
+
+        </activity>
+        <activity android:name=".ui.user.UserExperienceAty">
+
+        </activity>
+
+    </application>
+
+</manifest>
